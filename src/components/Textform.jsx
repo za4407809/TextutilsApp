@@ -24,7 +24,7 @@ export default function Textform(props) {
       <button onClick={copyToClipboard} className="btn btn-primary my-3 mx-2">Copy Text</button>
       <button onClick={capitalizeFirstCharacterOfEachWord} className="btn btn-primary my-3 mx-2">Capitalize Words</button>
 
-      <h2>Your Text Summary</h2>
+      <h2>Your Text Summaries</h2>
       <p>{text.trim() ? text.trim().split(/\s+/).length : 0} Words and {text.replace(/\s/g, '').length} Characters</p>
       <p>{0.08 * text.split(/\s+/).length} Minutes Read</p>
       <h2>Preview</h2>
