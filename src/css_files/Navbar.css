@@ -1,0 +1,33 @@
+/* General Navbar Styling */
+.navbar {
+    font-family: 'Arial, sans-serif';
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+    margin-right: 1rem;
+    color: #000;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .navbar .form-check {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-check-label {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+  }
+  
